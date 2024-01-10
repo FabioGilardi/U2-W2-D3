@@ -1,0 +1,14 @@
+@mixin fontClass {
+  color: $text-color;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@mixin titleBig {
+  color: $text-color;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}

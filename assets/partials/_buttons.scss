@@ -1,0 +1,12 @@
+@each $color-name, $color in $buttons {
+  .button-#{$color-name} {
+    background-color: $color;
+    border: none;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+main {
+  article {
+    background-color: $bg-hero;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3em;
+    div {
+      section {
+        h1 {
+          text-align: center;
+          @include titleBig;
+        }
+        p {
+          text-align: center;
+          @include fontClass;
+        }
+
+        &:nth-of-type(2) {
+          text-align: center;
+        }
+      }
+    }
+    img {
+      @include floating;
+      width: 20%;
+    }
+    button {
+      @include fontClass;
+    }
+  }
+
+  #second-art {
+    background-color: white;
+    padding: 0;
+    margin: 2.2em;
+
+    img {
+      width: 15%;
+    }
+  }
+}

@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.padding-block-xs {
+  display: block;
+  padding: 4px;
+}
+
+.padding-block-sm {
+  display: block;
+  padding: 8px;
+}
+
+.padding-block-md {
+  display: block;
+  padding: 12px;
+}
+
+.padding-block-lg {
+  display: block;
+  padding: 16px;
+}
+
+.padding-block-xl {
+  display: block;
+  padding: 20px;
+}
+
+.padding-block-xxl {
+  display: block;
+  padding: 24px;
+}
+
+.padding-inline-xs {
+  display: inline;
+  padding: 4px;
+}
+
+.padding-inline-sm {
+  display: inline;
+  padding: 8px;
+}
+
+.padding-inline-md {
+  display: inline;
+  padding: 12px;
+}
+
+.padding-inline-lg {
+  display: inline;
+  padding: 16px;
+}
+
+.padding-inline-xl {
+  display: inline;
+  padding: 20px;
+}
+
+.padding-inline-xxl {
+  display: inline;
+  padding: 24px;
+}
+
+.margin-block-xs {
+  display: block;
+  margin: 4px;
+}
+
+.margin-block-sm {
+  display: block;
+  margin: 8px;
+}
+
+.margin-block-md {
+  display: block;
+  margin: 12px;
+}
+
+.margin-block-lg {
+  display: block;
+  margin: 16px;
+}
+
+.margin-block-xl {
+  display: block;
+  margin: 20px;
+}
+
+.margin-block-xxl {
+  display: block;
+  margin: 24px;
+}
+
+.margin-inline-xs {
+  display: inline;
+  margin: 4px;
+}
+
+.margin-inline-sm {
+  display: inline;
+  margin: 8px;
+}
+
+.margin-inline-md {
+  display: inline;
+  margin: 12px;
+}
+
+.margin-inline-lg {
+  display: inline;
+  margin: 16px;
+}
+
+.margin-inline-xl {
+  display: inline;
+  margin: 20px;
+}
+
+.margin-inline-xxl {
+  display: inline;
+  margin: 24px;
+}
+
+.button-blue {
+  background-color: #0e6cff;
+  border: none;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+}
+.button-blue:hover {
+  cursor: pointer;
+}
+
+.button-orange {
+  background-color: #ff8700;
+  border: none;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+}
+.button-orange:hover {
+  cursor: pointer;
+}
+
+.button-green {
+  background-color: #4caf50;
+  border: none;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+}
+.button-green:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: gray;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+header nav ul li img {
+  width: 60px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main article {
+  background-color: #640fc5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3em;
+}
+main article div section h1 {
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+main article div section p {
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main article div section:nth-of-type(2) {
+  text-align: center;
+}
+main article img {
+  border-radius: 20px;
+  box-shadow: -1px 2px 20px 10px rgba(0, 0, 0, 0.8);
+  border: 2px, solid, black;
+  width: 20%;
+}
+main article button {
+  color: #f4f4f4;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main #second-art {
+  background-color: white;
+  padding: 0;
+  margin: 2.2em;
+}
+main #second-art img {
+  width: 15%;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fade {
+  0% {
+    transform: translateY(-400px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+    z-index: 1;
+  }
+}
+.rotate-img {
+  animation: rotation 3s linear 3.1s infinite;
+}
+
+.fade-in {
+  animation: fade 3s ease-in;
+}/*# sourceMappingURL=main.css.map */

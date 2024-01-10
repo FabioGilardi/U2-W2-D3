@@ -1,0 +1,14 @@
+@mixin floating($width: 2px, $type: solid, $b-color: black, $opacity: 0.8) {
+  border-radius: 20px;
+  box-shadow: -1px 2px 20px 10px rgba(0, 0, 0, $opacity);
+  border: $width, $type, $b-color;
+}
+
+@mixin grid($grid-elements) {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  div {
+    width: $grid-elements;
+  }
+}

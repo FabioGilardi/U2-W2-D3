@@ -1,0 +1,22 @@
+header {
+  background-color: gray;
+  nav {
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      li {
+        img {
+          width: 60px;
+        }
+
+        a {
+          text-decoration: none;
+          @include fontClass;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+$my-sizes: (
+  xs: 4px,
+  sm: 8px,
+  md: 12px,
+  lg: 16px,
+  xl: 20px,
+  xxl: 24px,
+);
+
+@each $breakpoint, $size in $my-sizes {
+  .padding-block-#{$breakpoint} {
+    display: block;
+    padding: $size;
+  }
+}
+@each $breakpoint, $size in $my-sizes {
+  .padding-inline-#{$breakpoint} {
+    display: inline;
+    padding: $size;
+  }
+}
+@each $breakpoint, $size in $my-sizes {
+  .margin-block-#{$breakpoint} {
+    display: block;
+    margin: $size;
+  }
+}
+@each $breakpoint, $size in $my-sizes {
+  .margin-inline-#{$breakpoint} {
+    display: inline;
+    margin: $size;
+  }
+}
